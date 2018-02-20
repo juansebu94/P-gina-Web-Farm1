@@ -2,13 +2,19 @@
 {
 	display: flex;
 	justify-content: space-between;
-	background: white;
+	background: black;
 	width: 100%;
 }
 .logo
 {
-	width: 70px;
 	display: inline-block;
+	margin: 0;
+}
+.logo img
+{
+	width: 50px;
+	margin-top: 8px;
+	margin-left: 15px;
 }
 .menu
 {
@@ -24,8 +30,12 @@
 }
 .menu a
 {
-	color: black;
+	color: white;
 	text-transform: uppercase;
+}
+.contenedor
+{
+	margin-bottom: 20px;
 }
 .contenedor img
 {
@@ -38,8 +48,8 @@
 	display: block;
 	width: 30%;
 	position: absolute;
-	left: 250px;
-	bottom: 0;
+	left: 310px;
+	top: 415px;
 }
 .contenedor-b img
 {
@@ -52,4 +62,37 @@
 	bottom: 10px;
 	font-size: 20px;
 	color: brown;
+}
+.contenido
+{
+	display: flex;
+	justify-content: space-around;
+}
+.contenido img
+{
+	width: 400px;
+}
+.aviso h1
+{
+	text-align: center;
+}
+.contenido p
+{
+	width: 400px;
+}
+.footer
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: black;
+	color: white;
+}
+.boton
+{
+	margin-left: 10px;
+}
+.indicador
+{
+	margin-right: 20px;
 }
