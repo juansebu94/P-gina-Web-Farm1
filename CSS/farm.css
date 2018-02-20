@@ -2,26 +2,54 @@
 {
 	display: flex;
 	justify-content: space-between;
-	background: gray;
+	background: white;
+	width: 100%;
 }
 .logo
 {
-	width: 40px;
+	width: 70px;
 	display: inline-block;
 }
 .menu
 {
 	display: inline-block;
-	padding-right: 20px;
+	padding-right: 30px;
 	padding-top: 8px;
 	font-size: 20px;
 }
 .menu li
 {
 	display: inline-block;
-	margin-left: 20px;
+	margin-left: 30px;
 }
 .menu a
 {
 	color: black;
+	text-transform: uppercase;
+}
+.contenedor img
+{
+	display: block;
+	margin: auto;
+	width: 60%;
+}
+.contenedor-b
+{
+	display: block;
+	width: 30%;
+	position: absolute;
+	left: 250px;
+	bottom: 0;
+}
+.contenedor-b img
+{
+	opacity: 0.6;
+}
+.contenedor-b p
+{
+	position: absolute;
+	left: 85px;
+	bottom: 10px;
+	font-size: 20px;
+	color: brown;
 }

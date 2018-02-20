@@ -1,0 +1,28 @@
+.portada
+{
+	display: flex;
+	justify-content: space-between;
+	background: gray;
+}
+.logo
+{
+	width: 40px;
+	display: inline-block;
+}
+.menu
+{
+	display: inline-block;
+	padding-right: 20px;
+	padding-top: 8px;
+	font-size: 20px;
+}
+.menu li
+{
+	display: inline-block;
+	margin-left: 20px;
+}
+.menu a
+{
+	color: white;
+	text-transform: uppercase;
+}
